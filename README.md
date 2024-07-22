@@ -7,7 +7,7 @@ Current features-
 2. Pity Counter : Shows where your pity stands currently on limited banners.
     Command : !!pity
 
-You need to first setup these in environment variables along with the bot TOKEN
+You need to first setup these in environment variables along with the bot TOKEN\n
 PLAYER_ID_DICT = '{"discord tag" : "wuwa player id"}'
 PLAYER_RECORD_ID = '{"discord tag" : "your pull record id"}'
 
