@@ -8,7 +8,7 @@ Current features- <br />
     Command : !!pity<br />
 
 You need to first setup these in environment variables along with the bot TOKEN<br />
-PLAYER_ID_DICT = '{"discord tag" : "wuwa player id"}'<br />
-PLAYER_RECORD_ID = '{"discord tag" : "your pull record id"}'<br />
+PLAYER_ID_DICT = '{"your discord tag" : "wuwa player id"}'<br />
+PLAYER_RECORD_ID = '{"your discord tag" : "your pull record id"}'<br />
 
 You can obtain player id and record id from debug.log file in the game path : WutheringWavesj3oFh\Wuthering Waves Game\Client\Binaries\Win64\ThirdParty\KrPcSdk_Global\KRSDKRes
