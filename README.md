@@ -1,7 +1,7 @@
 Discord Bot for convenience features while playing Wuthering Waves.
 
 Current features-
-Union Level Calculator : Calculates how many days to reach a target union level. command : !!union <current level> <current xp> <target level>
+Union Level Calculator : Calculates how many days to reach a target union level. command : !!union current_level current_xp target_level (Ex. !!union 57 12500 60)
 Pity Counter : Shows where your pity stands currently on limited banners. Command : !!pity
 
 You need to first setup these in environment variables along with the bot TOKEN
