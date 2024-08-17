@@ -17,7 +17,7 @@ def create_request_body(player_id,recordId,  cardPoolType):
     return {"playerId":player_id, "cardPoolId":cardPoolId,"cardPoolType":cardPoolType ,"serverId":serverId, "languageCode":languageCode, "recordId":recordId}
 
 def count_pity(player_name):
-    standard_resonators = ["Verina", "Calcharo", "Ling Yang", "Jianxin", "Encore"]
+    standard_resonators = ["Verina", "Calcharo", "Lingyang", "Jianxin", "Encore"]
     hard_pity_status = "(50/50)"
     resonator_pull_data = json.loads(requests.post(url, json = create_request_body(player_id_dict[player_name],player_record_dict[player_name],1)).text)['data']
     weapon_pull_data = json.loads(requests.post(url, json = create_request_body(player_id_dict[player_name], player_record_dict[player_name], 2)).text)['data']
