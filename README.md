@@ -7,6 +7,8 @@ Current features- <br />
 2. Pity Counter : Shows where your pity stands currently on limited banners.<br />
     Command : !!pity<br />
 
+AS OF PATCH 1.2, THE RECORD ID GETS RESET EVERY HOUR AND PITY COUNTER IS RENDERED UNUSABLE FOR NOW.
+
 You need to first setup these in environment variables along with the bot TOKEN<br />
 PLAYER_ID_DICT = '{"your discord tag" : "wuwa player id"}'<br />
 PLAYER_RECORD_ID = '{"your discord tag" : "your pull record id"}'<br />
